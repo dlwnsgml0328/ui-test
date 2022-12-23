@@ -1,9 +1,9 @@
 import type { NextPage } from 'next';
 
-import { Button } from '@nextui-org/react';
+import Button from '@eazelui/system.components.button';
 
 const Home: NextPage = () => {
-  const Component = () => <Button>Click me</Button>;
+  const Component = () => <Button onPress={() => alert('wow')}>Click me</Button>;
   return <Component />;
 };
 
