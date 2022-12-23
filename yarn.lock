@@ -17,12 +17,12 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@eazelui/system.components.button@^0.0.10":
-  version "0.0.10"
-  resolved "https://node.bit.cloud/@eazelui/system.components.button/-/@eazelui-system.components.button-0.0.10.tgz#931164a2bb07aafa868fed8ae5279cc83dd9264b"
-  integrity sha1-kxFkorsHqvqGj+2K5SecyD3ZJks=
+"@eazelui/system.components.button@^0.0.11":
+  version "0.0.11"
+  resolved "https://node.bit.cloud/@eazelui/system.components.button/-/@eazelui-system.components.button-0.0.11.tgz#7180a4d9a3939d6595a77353cbf8c4e9ef5bfa35"
+  integrity sha1-cYCk2aOTnWWVp3NTy/jE6e9b+jU=
   dependencies:
-    "@eazelui/system.theme" "0.0.6"
+    "@eazelui/system.theme" "0.0.7"
     "@eazelui/system.utils" "0.0.6"
     "@react-aria/button" "3.6.1"
     "@react-aria/interactions" "3.11.0"
@@ -112,19 +112,7 @@
     "@eazelui/system.theme" "0.0.7"
     core-js "^3.0.0"
 
-"@eazelui/system.theme@0.0.6", "@eazelui/system.theme@^0.0.6":
-  version "0.0.6"
-  resolved "https://node.bit.cloud/@eazelui/system.theme/-/@eazelui-system.theme-0.0.6.tgz#d1d312d909a1a24ffb00468ccadc430570cacbc3"
-  integrity sha1-0dMS2Qmhok/7AEaMytxDBXDKy8M=
-  dependencies:
-    "@eazelui/system.hooks.use-ssr" "0.0.1"
-    "@eazelui/system.utils" "0.0.6"
-    "@react-aria/overlays" "3.10.1"
-    "@react-aria/ssr" "^3.2.0"
-    "@stitches/react" "1.2.8"
-    core-js "^3.0.0"
-
-"@eazelui/system.theme@0.0.7":
+"@eazelui/system.theme@0.0.7", "@eazelui/system.theme@^0.0.7":
   version "0.0.7"
   resolved "https://node.bit.cloud/@eazelui/system.theme/-/@eazelui-system.theme-0.0.7.tgz#def9d623610a4ebed75f492d3182db038596fe02"
   integrity sha1-3vnWI2EKTr7XX0ktMYLbA4WW/gI=
