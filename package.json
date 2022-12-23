@@ -10,11 +10,18 @@
   },
   "dependencies": {
     "@eazelui/system.components.button": "^0.0.10",
+    "@eazelui/system.components.card": "^0.0.16",
+    "@eazelui/system.components.grid": "^0.0.8",
+    "@eazelui/system.components.tag": "^0.0.8",
+    "@eazelui/system.components.text": "^0.0.9",
+    "@eazelui/system.icons.arrow-left": "^0.0.6",
+    "@eazelui/system.icons.arrow-right": "^0.0.6",
     "@eazelui/system.theme": "^0.0.6",
     "@nextui-org/react": "^1.0.0-beta.11",
     "next": "13.1.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-parallax-tilt": "^1.7.77"
   },
   "devDependencies": {
     "@types/node": "18.11.17",

@@ -31,6 +31,56 @@
     "@react-types/shared" "3.14.1"
     core-js "^3.0.0"
 
+"@eazelui/system.components.card@^0.0.16":
+  version "0.0.16"
+  resolved "https://node.bit.cloud/@eazelui/system.components.card/-/@eazelui-system.components.card-0.0.16.tgz#0ab6c9b64115b18763d7843ffa3193bfceb1da20"
+  integrity sha1-CrbJtkEVsYdj14Q/+jGTv86x2iA=
+  dependencies:
+    "@eazelui/system.components.image" "0.0.13"
+    "@eazelui/system.theme" "0.0.7"
+    "@eazelui/system.utils" "0.0.6"
+    "@react-aria/focus" "3.8.0"
+    "@react-aria/interactions" "3.11.0"
+    "@react-aria/utils" "3.13.3"
+    "@react-types/shared" "3.14.1"
+    core-js "^3.0.0"
+
+"@eazelui/system.components.grid@^0.0.8":
+  version "0.0.8"
+  resolved "https://node.bit.cloud/@eazelui/system.components.grid/-/@eazelui-system.components.grid-0.0.8.tgz#e1549d1fb5692a6fd22a528e625a9126729ca017"
+  integrity sha1-4VSdH7VpKm/SKlKOYlqRJnKcoBc=
+  dependencies:
+    "@eazelui/system.theme" "0.0.7"
+    "@eazelui/system.utils" "0.0.6"
+    core-js "^3.0.0"
+
+"@eazelui/system.components.image@0.0.13":
+  version "0.0.13"
+  resolved "https://node.bit.cloud/@eazelui/system.components.image/-/@eazelui-system.components.image-0.0.13.tgz#54b6531ca0dfa1bdf488635e0a95df0ddd5e7361"
+  integrity sha1-VLZTHKDfob30iGNeCpXfDd1ec2E=
+  dependencies:
+    "@eazelui/system.theme" "0.0.7"
+    "@eazelui/system.utils" "0.0.6"
+    core-js "^3.0.0"
+
+"@eazelui/system.components.tag@^0.0.8":
+  version "0.0.8"
+  resolved "https://node.bit.cloud/@eazelui/system.components.tag/-/@eazelui-system.components.tag-0.0.8.tgz#a6a26a7568d5566319a7bdd0e9402a9b543a45e4"
+  integrity sha1-pqJqdWjVVmMZp73Q6UAqm1Q6ReQ=
+  dependencies:
+    "@eazelui/system.theme" "0.0.7"
+    "@eazelui/system.utils" "0.0.6"
+    core-js "^3.0.0"
+
+"@eazelui/system.components.text@^0.0.9":
+  version "0.0.9"
+  resolved "https://node.bit.cloud/@eazelui/system.components.text/-/@eazelui-system.components.text-0.0.9.tgz#e2f17e62c80be6351c5694acf3d223b70e25d5d9"
+  integrity sha1-4vF+YsgL5jUcVpSs89Ijtw4l1dk=
+  dependencies:
+    "@eazelui/system.theme" "0.0.7"
+    "@eazelui/system.utils" "0.0.6"
+    core-js "^3.0.0"
+
 "@eazelui/system.hooks.use-ssr@0.0.1":
   version "0.0.1"
   resolved "https://node.bit.cloud/@eazelui/system.hooks.use-ssr/-/@eazelui-system.hooks.use-ssr-0.0.1.tgz#18da9907f118ab5b201c5a3d906236fb6504f8d7"
@@ -38,10 +88,46 @@
   dependencies:
     core-js "^3.0.0"
 
+"@eazelui/system.icons.arrow-left@^0.0.6":
+  version "0.0.6"
+  resolved "https://node.bit.cloud/@eazelui/system.icons.arrow-left/-/@eazelui-system.icons.arrow-left-0.0.6.tgz#ef27daa7b804dacc5e3ad48c0e47ed5261d5af56"
+  integrity sha1-7yfap7gE2sxeOtSMDkftUmHVr1Y=
+  dependencies:
+    "@eazelui/system.icons.icon-style" "0.0.7"
+    core-js "^3.0.0"
+
+"@eazelui/system.icons.arrow-right@^0.0.6":
+  version "0.0.6"
+  resolved "https://node.bit.cloud/@eazelui/system.icons.arrow-right/-/@eazelui-system.icons.arrow-right-0.0.6.tgz#ea35f342f806fff3433805cb3dafff7abad14d97"
+  integrity sha1-6jXzQvgG//NDOAXLPa//errRTZc=
+  dependencies:
+    "@eazelui/system.icons.icon-style" "0.0.7"
+    core-js "^3.0.0"
+
+"@eazelui/system.icons.icon-style@0.0.7":
+  version "0.0.7"
+  resolved "https://node.bit.cloud/@eazelui/system.icons.icon-style/-/@eazelui-system.icons.icon-style-0.0.7.tgz#a426af985e8506f99c75e5100aeef1cac1e84bb4"
+  integrity sha1-pCavmF6FBvmcdeUQCu7xysHoS7Q=
+  dependencies:
+    "@eazelui/system.theme" "0.0.7"
+    core-js "^3.0.0"
+
 "@eazelui/system.theme@0.0.6", "@eazelui/system.theme@^0.0.6":
   version "0.0.6"
   resolved "https://node.bit.cloud/@eazelui/system.theme/-/@eazelui-system.theme-0.0.6.tgz#d1d312d909a1a24ffb00468ccadc430570cacbc3"
   integrity sha1-0dMS2Qmhok/7AEaMytxDBXDKy8M=
+  dependencies:
+    "@eazelui/system.hooks.use-ssr" "0.0.1"
+    "@eazelui/system.utils" "0.0.6"
+    "@react-aria/overlays" "3.10.1"
+    "@react-aria/ssr" "^3.2.0"
+    "@stitches/react" "1.2.8"
+    core-js "^3.0.0"
+
+"@eazelui/system.theme@0.0.7":
+  version "0.0.7"
+  resolved "https://node.bit.cloud/@eazelui/system.theme/-/@eazelui-system.theme-0.0.7.tgz#def9d623610a4ebed75f492d3182db038596fe02"
+  integrity sha1-3vnWI2EKTr7XX0ktMYLbA4WW/gI=
   dependencies:
     "@eazelui/system.hooks.use-ssr" "0.0.1"
     "@eazelui/system.utils" "0.0.6"
@@ -371,6 +457,17 @@
     "@react-aria/interactions" "^3.10.0"
     "@react-aria/utils" "^3.13.2"
     "@react-types/shared" "^3.14.0"
+    clsx "^1.1.1"
+
+"@react-aria/focus@3.8.0":
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/@react-aria/focus/-/focus-3.8.0.tgz#b292df7e35ed1b57af43f98df8135b00c4667d17"
+  integrity sha512-XuaLFdqf/6OyILifkVJo++5k2O+wlpNvXgsJkRWn/wSmB77pZKURm2MMGiSg2u911NqY+829UrSlpmhCZrc8RA==
+  dependencies:
+    "@babel/runtime" "^7.6.2"
+    "@react-aria/interactions" "^3.11.0"
+    "@react-aria/utils" "^3.13.3"
+    "@react-types/shared" "^3.14.1"
     clsx "^1.1.1"
 
 "@react-aria/focus@^3.10.1", "@react-aria/focus@^3.8.0", "@react-aria/focus@^3.9.0":
@@ -2359,6 +2456,11 @@ react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-parallax-tilt@^1.7.77:
+  version "1.7.77"
+  resolved "https://registry.yarnpkg.com/react-parallax-tilt/-/react-parallax-tilt-1.7.77.tgz#046ae5ab02c46d047971648af02a98f26fa6db5d"
+  integrity sha512-wRkZ38TCpes917Igd0V03oE/hrXCliu21sDMdBqWD3BDE+tK6DOM5l1ZvbuDFEIPnBxQCn/16ZRcpE2EM16PDw==
 
 react@18.2.0:
   version "18.2.0"
