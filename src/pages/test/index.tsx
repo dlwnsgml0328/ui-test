@@ -10,6 +10,7 @@ import Tag from '@eazelui/system.components.tag';
 import Button from '@eazelui/system.components.button';
 import ArrowLeft from '@eazelui/system.icons.arrow-left';
 import ArrowRight from '@eazelui/system.icons.arrow-right';
+
 import Image from 'next/image';
 
 const GuidedTours = [
